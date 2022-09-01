@@ -1,0 +1,52 @@
+[13-Jul-2022 09:41:40 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\front-page.php on line 3
+[13-Jul-2022 09:46:56 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\header.php on line 42
+[13-Jul-2022 09:47:01 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[13-Jul-2022 09:47:50 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\header.php on line 31
+[13-Jul-2022 09:47:52 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[13-Jul-2022 11:58:26 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\header.php on line 42
+[13-Jul-2022 11:58:32 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[14-Jul-2022 10:43:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Description_Walker' not found in C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\header.php:42
+Stack trace:
+#0 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\template.php(716): load_template('C:\\Users\\mattl\\...', true, Array)
+#2 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\front-page.php(3): get_header()
+#4 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mattl\\...')
+#5 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mattl\\...')
+#6 C:\Users\mattl\Local Sites\lcphotography\app\public\index.php(17): require('C:\\Users\\mattl\\...')
+#7 {main}
+  thro in C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\header.php on line 42
+[14-Jul-2022 10:44:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Description_Walker' not found in C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\header.php:42
+Stack trace:
+#0 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\template.php(716): load_template('C:\\Users\\mattl\\...', true, Array)
+#2 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\front-page.php(3): get_header()
+#4 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mattl\\...')
+#5 C:\Users\mattl\Local Sites\lcphotography\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mattl\\...')
+#6 C:\Users\mattl\Local Sites\lcphotography\app\public\index.php(17): require('C:\\Users\\mattl\\...')
+#7 {main}
+  thro in C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\header.php on line 42
+[14-Jul-2022 11:17:36 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\front-page.php on line 7
+[14-Jul-2022 11:18:34 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[14-Jul-2022 12:44:55 UTC] PHP Parse error:  syntax error, unexpected '=' in C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\front-page.php on line 32
+[14-Jul-2022 12:45:05 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[29-Aug-2022 11:03:32 UTC] PHP Warning:  Use of undefined constant jQuery - assumed 'jQuery' (this will throw an Error in a future version of PHP) in C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\functions.php on line 151
+[29-Aug-2022 11:03:32 UTC] PHP Stack trace:
+[29-Aug-2022 11:03:32 UTC] PHP   1. {main}() C:\Users\mattl\Local Sites\lcphotography\app\public\index.php:0
+[29-Aug-2022 11:03:32 UTC] PHP   2. require() C:\Users\mattl\Local Sites\lcphotography\app\public\index.php:17
+[29-Aug-2022 11:03:32 UTC] PHP   3. require_once() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-blog-header.php:19
+[29-Aug-2022 11:03:32 UTC] PHP   4. include() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\template-loader.php:106
+[29-Aug-2022 11:03:32 UTC] PHP   5. get_header() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\front-page.php:1
+[29-Aug-2022 11:03:32 UTC] PHP   6. locate_template() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\general-template.php:48
+[29-Aug-2022 11:03:32 UTC] PHP   7. load_template() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\template.php:716
+[29-Aug-2022 11:03:32 UTC] PHP   8. require_once() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\template.php:770
+[29-Aug-2022 11:03:32 UTC] PHP   9. wp_head() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-content\themes\lc-photography\header.php:22
+[29-Aug-2022 11:03:32 UTC] PHP  10. do_action() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\general-template.php:3042
+[29-Aug-2022 11:03:32 UTC] PHP  11. WP_Hook->do_action() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\plugin.php:476
+[29-Aug-2022 11:03:32 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\class-wp-hook.php:331
+[29-Aug-2022 11:03:32 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\class-wp-hook.php:307
+[29-Aug-2022 11:03:32 UTC] PHP  14. do_action() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\script-loader.php:2156
+[29-Aug-2022 11:03:32 UTC] PHP  15. WP_Hook->do_action() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\plugin.php:476
+[29-Aug-2022 11:03:32 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\class-wp-hook.php:331
+[29-Aug-2022 11:03:32 UTC] PHP  17. lc_photography_scripts() C:\Users\mattl\Local Sites\lcphotography\app\public\wp-includes\class-wp-hook.php:307

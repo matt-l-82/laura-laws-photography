@@ -1,0 +1,1 @@
+C:/Users/mattl/Local Sites/lcphotography/app/public/wp-content/plugins/query-monitor/wp-content/db.php
